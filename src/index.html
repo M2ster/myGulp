@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя Gulp сборка</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Всем привет, это моя Gulp сборка</h1>
+            <p class="subtitle">Посмотрите, какие функции она выполняет. Сборка имеет две версии: DEV для разработки и
+                BUILD для финальной отдачи заказчику. Выберите категорию, чтобы узнать подробности.</p>
+        </header>
+
+        <div class="buttons-container">
+            <button class="category-btn" data-category="html">
+                <h3>HTML</h3>
+                <p>Обработка HTML файлов</p>
+            </button>
+
+            <button class="category-btn" data-category="css">
+                <h3>CSS & Preprocessors</h3>
+                <p>Работа со стилями</p>
+            </button>
+
+            <button class="category-btn" data-category="fonts">
+                <h3>Fonts</h3>
+                <p>Работа со шрифтами</p>
+            </button>
+
+            <button class="category-btn" data-category="files">
+                <h3>Files</h3>
+                <p>Работа с файлами</p>
+            </button>
+
+            <button class="category-btn" data-category="images">
+                <h3>Images</h3>
+                <p>Оптимизация изображений</p>
+            </button>
+
+            <button class="category-btn" data-category="js">
+                <h3>JavaScript</h3>
+                <p>Обработка JavaScript</p>
+            </button>
+
+            <button class="category-btn" data-category="clean">
+                <h3>Clean</h3>
+                <p>Очистка папок</p>
+            </button>
+
+            <button class="category-btn" data-category="server">
+                <h3>Server</h3>
+                <p>Локальный сервер</p>
+            </button>
+
+            <button class="category-btn" data-category="watch">
+                <h3>Watch</h3>
+                <p>Отслеживание изменений</p>
+            </button>
+        </div>
+
+        <div id="info-panel" class="info-panel">
+            <!-- Контент будет добавляться динамически -->
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
