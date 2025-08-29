@@ -6,15 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Моя Gulp сборка</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/icon.png">
 </head>
 
 <body>
     <div class="container">
-        <header>
-            <h1>Всем привет, это моя Gulp сборка</h1>
-            <p class="subtitle">Посмотрите, какие функции она выполняет. Сборка имеет две версии: DEV для разработки и
-                BUILD для финальной отдачи заказчику. Выберите категорию, чтобы узнать подробности.</p>
-        </header>
+        @@include('./html/header.html')
 
         <div class="buttons-container">
             <button class="category-btn" data-category="html">
