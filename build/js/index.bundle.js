@@ -1,1 +1,0 @@
-(()=>{"use strict";window.showSection=function(e){document.querySelectorAll(".section").forEach(e=>e.style.display="none"),document.getElementById(e).style.display="block"}})();
